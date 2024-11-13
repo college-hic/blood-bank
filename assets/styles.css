@@ -1,0 +1,9 @@
+/* Add more advanced UI styles here */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #FF4081;
+    color: white;
+}
