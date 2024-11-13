@@ -1,6 +1,6 @@
 /* style.css */
 
-/* This will apply styles to the body of the app */
+/* Apply background image to the body */
 body {
     background-image: url('../assets/background.jpg');
     background-size: cover;
@@ -8,15 +8,37 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
-    color: white;  /* Text color to ensure readability on dark backgrounds */
-    font-family: Arial, sans-serif; /* Set a simple font */
+    font-family: Arial, sans-serif; /* Set a font for the text */
 }
 
-/* Optional: Style for the main container to add some padding and border-radius */
+/* Style for the content container */
 .main-container {
-    padding: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the container */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow for better contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
+/* Style for the blood bank cards */
+.blood-bank-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for each card */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blood-bank-card h4 {
+    margin: 0;
+    color: #2c3e50; /* Darker title color */
+}
+
+.blood-bank-card p {
+    margin: 5px 0;
+}
+
+.blood-bank-card .distance {
+    font-weight: bold;
+    color: #16a085; /* A color for the distance text */
+}
