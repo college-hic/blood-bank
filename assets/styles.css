@@ -1,9 +1,12 @@
-/* Add more advanced UI styles here */
-body {
-    font-family: 'Arial', sans-serif;
-}
+/* style.css */
 
-button {
-    background-color: #FF4081;
+body {
+    background-image: url('../assets/background.jpg2');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
     color: white;
 }
+
