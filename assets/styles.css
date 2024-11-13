@@ -4,7 +4,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('./assets/background.jpg2');
+        background-image: url('./assets/background.jpg');
         background-size: cover;
         background-position: center center;
     }
