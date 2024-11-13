@@ -1,1 +1,22 @@
+/* style.css */
+
+/* This will apply styles to the body of the app */
+body {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: white;  /* Text color to ensure readability on dark backgrounds */
+    font-family: Arial, sans-serif; /* Set a simple font */
+}
+
+/* Optional: Style for the main container to add some padding and border-radius */
+.main-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow for better contrast */
+}
 
